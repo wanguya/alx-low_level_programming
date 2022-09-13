@@ -25,6 +25,6 @@ while (i <= 9)
 	}
 		putchar('\n');
 		i++;
-		return (0);
+		return (void);
 }
 }
