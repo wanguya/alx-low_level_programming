@@ -10,7 +10,6 @@ int print_alphabet_x10(void);
 int  main(void)
 {
 printf("print_alphabet_x10(void)\n");
-return (0);
 }
 
 int print_alphabet_x10(void)
@@ -25,5 +24,6 @@ while (i <= 9)
 	}
 		putchar('\n');
 		i++;
+		return (0);
 }
 }
