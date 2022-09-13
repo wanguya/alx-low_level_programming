@@ -2,16 +2,24 @@
 /**
  * main - beggining of code
  *
+ * funtion print_alphabet(void) is a prototype
+ *
  * Return: 0
  */
 void print_alphabet(void);
+char ch;
 int main(void)
 {
-char ch = 'a';
+ch = 'a';
 while (ch <= 'z')
 {
-	printf("%c ", ch);
+	void print_alphabet(void);
 	ch++;
+	return (0);
 }
-return (0);
 }
+void print_alphabet(void)
+{
+	printf("%c", ch);
+}
+
