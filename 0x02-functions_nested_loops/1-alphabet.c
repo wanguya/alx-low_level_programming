@@ -6,6 +6,7 @@
  *
  * Return: 0
  */
+/* print alpha is a prototype */
 void print_alphabet(void);
 char ch;
 int main(void)
