@@ -1,30 +1,22 @@
-#include<stdio.h>
+#include "main.h"
 /**
- *main - check the code
- *
- * Return: always 0.
- *
- * print_alphabet_x10(void) is a prototype
+ * print_alphabet_x10 - prints alphabet 10 times
+ * Return: void
  */
-int print_alphabet_x10(void);
-int  main(void)
+void print_alphabet_x10(void)
 {
-printf("print_alphabet_x10(void)\n");
-return (0);
-}
+	char c;
+	int i = 0;
 
-int print_alphabet_x10(void)
-{
-char c;
-int i = 0;
-while (i <= 9)
-{
-	for (c = 'a'; c <= 'z'; c++)
+	while (i < 10)
 	{
-		putchar(c);
-	}
-		putchar('\n');
+		c = 'a';
+		while (c <= 'z')
+		{
+			_putchar(c);
+			c++;
+		}
+		_putchar('\n');
 		i++;
-		return (void);
-}
+	}
 }
