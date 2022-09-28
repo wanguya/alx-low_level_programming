@@ -1,37 +1,17 @@
-#include "main.h"
+#ifndef MAIN_H
 
-/**
- *
- *  * more_numbers - nmbr fct
- *
- *   * Return: no return
- *
- *    */
+#define MAIN_H
 
-void more_numbers(void)
+void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
+int _strlen_recursion(char *s)
 
-{
+int str_checker(char *s1, char *s2, int i, int j)
+int _strlen_recursion(char *s)
+int factorial(int n)
+int _pow_recursion(int x, int y)
 
-	int i, j;
+int find_root(int n, int i)
 
-	for (i = 1; i <= 10; i++)
-
-	{
-
-		for (j = 0; j <= 14; j++)
-
-		{
-
-			if (j >= 10)
-
-				_putchar('1');
-
-			_putchar(j % 10 + '0');
-
-		}
-
-		_putchar('\n');
-
-	}
-
-}
+int find_multipliers(int n, int i)	
+#endif/*MAIN_H*/
